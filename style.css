@@ -46,8 +46,19 @@ main{
     object-fit: cover;
     border-radius: 15px;
     box-shadow: 0 0 12px 7px rgba(0,0,0,0.5);
-    transform: translateY(-50px);
+    cursor: pointer;
+    border-radius: 100%;
+    animation: animate 5s linear infinite;
 }
+@keyframes animate{
+    from{
+        transform:translateY(-15px) rotate(0deg);
+    }
+    to{
+        transform:translateY(-15px) rotate(360deg);
+    }
+}
+
 h1{
     font-size: 20px;
     color: rgb(39, 39, 39);

@@ -11,28 +11,22 @@ const imageOverlay = document.getElementById("imageOverlay");
 
 const songs = [
   {
-    path: "./assets/FKJ & Masego - Tadow (128).mp3",
-    name: "FKJ & Masego - Tadow (128)",
-    artist: "FKJ & Masego",
-    image: "./assets/cute_naruto_uzumaki_chibi_anime-wallpaper-1920x1200.jpg",
+    path: "./assets/music1.mp3",
+    name: "Mocking bird",
+    artist: "Naruto",
+    image: "./assets/abstract_red-wallpaper-1920x1200.jpg",
   },
   {
-    path: "./assets/Sting - Englishman In New York (128).mp3",
-    name: "Sting - Englishman In New York (128)",
-    artist: "Sting",
+    path: "./assets/music2.mp3",
+    name: "Lose yourself",
+    artist: "Obito",
     image: "./assets/broken_glass_deadmau5-wallpaper-1280x768.jpg",
   },
   {
-    path: "./assets/t.A.T.u. - All About Us (Official Uncensored Video) (128).mp3",
-    name: "t.A.T.u. - All About Us",
-    artist: "t.A.T.u.",
+    path: "./assets/music3.mp3",
+    name: "Houdini",
+      artist: "Ghost of the uchiha- madara uchiha",
     image: "./assets/music_16-wallpaper-1920x1200.jpg",
-  },
-  {
-    path: "./assets/t.A.T.u. - All The Things She Said (Official Music Video) (128).mp3",
-    name: "t.A.T.u. - All The Things She Said",
-    artist: "t.A.T.u.2",
-    image: "./assets/music_is_getting_louder-wallpaper-1920x1200.jpg",
   },
 ];
 let isPlaying;
