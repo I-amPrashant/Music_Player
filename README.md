@@ -2,7 +2,7 @@
 
 A simple web-based music player that allows users to play, pause, and skip songs.
 
-##Live Demo: 
+## Live Demo: https://i-amprashant.github.io/Music_Player/
 
 ## Installation
 
