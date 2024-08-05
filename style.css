@@ -19,12 +19,12 @@ main{
     align-items: center;
 }
 #imageOverlay{
-    object-fit: cover;
     height: 100%;
+    width: 100%;
+    object-fit: cover;
     position: absolute;
     z-index: -10;
-    backdrop-filter: blur(10px);
-    width: 100%;
+    filter: blur(2px);
 }
 #container{
     background-color: white;
@@ -37,6 +37,7 @@ main{
     height: 250px;
     width:350px;
     position: relative;
+    margin: 0 auto;
 }
 #image-container img{
     height: 100%;
